@@ -1,0 +1,23 @@
+{
+    "name": "nir/knp-menu-sorter",
+    "description": "Sorts your KnpMenu at render time",
+    "type": "library",
+    "require": {
+        "php": ">=5.6",
+        "knplabs/knp-menu": "^2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albin Kerouanton",
+            "email": "albin@akerouanton.name"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {"NiR\\Menu\\": "src/NiR/Menu"}
+    }
+}
